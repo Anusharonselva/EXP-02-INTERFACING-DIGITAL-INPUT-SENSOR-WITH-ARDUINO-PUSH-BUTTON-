@@ -27,10 +27,10 @@ EEPROM	512 bytes (ATmega168) or 1 KB (ATmega328)
 Clock Speed	16 MHz
 PIN DIAGRAM FOR ATMEGA 328
  
-![image](https://user-images.githubusercontent.com/36288975/163530394-115baee4-7ed1-49fe-9cce-d7b625e11e85.png)
+
 
 FIGURE-01
-![image](https://user-images.githubusercontent.com/36288975/163530431-4d390e98-0942-42d8-95b8-f57d348e6ad8.png)
+
 
 
 
@@ -52,7 +52,7 @@ PROCEDURE
 
 CIRCUIT DIAGRAM 
 
-![Uploading Screenshot (152).png…]()
+
 
 
 
@@ -64,43 +64,7 @@ CIRCUIT DIAGRAM
 
 
 PROGRAM 
- int buttonstate = 0;
- 
 
-void setup()
-
-{
-
-  pinMode(2, INPUT);
-  pinMode(13,OUTPUT);
-  
-}
-
-
-void loop()
-
-{
-
-  buttonstate = digitalRead(2); //
-  if (buttonstate == HIGH)
-  
-  {
-  
-    digitalWrite(13,HIGH);
-    
-  }
-  
-  else
-  
-  {
-  
-    digitalWrite(13,LOW);
-    
-  }
-  
-  delay(15);        //
-  
-}
  
  
  
@@ -111,5 +75,5 @@ void loop()
 Output of the simulation :
 
 
-![Screenshot (153)](https://user-images.githubusercontent.com/119405600/229509156-54720eb1-3cb9-44eb-b69c-1f362e9965c4.png)
+
 
